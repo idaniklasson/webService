@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Pane layoutX="-75.0" layoutY="-121.0" prefHeight="378.0" prefWidth="332.0">
+         <children>
+            <Button layoutX="123.0" layoutY="177.0" mnemonicParsing="false" onAction="#GoToFileView" text="File View" />
+            <Button layoutX="222.0" layoutY="177.0" mnemonicParsing="false" onAction="#GoToShowData" text="Show Data" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

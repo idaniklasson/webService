@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Pane prefHeight="409.0" prefWidth="472.0">
+         <children>
+            <ListView fx:id="listViewSpaceship" layoutX="20.0" layoutY="205.0" prefHeight="127.0" prefWidth="294.0" />
+            <Button layoutX="20.0" layoutY="354.0" mnemonicParsing="false" onAction="#BtnGoBack" text="Go Back" />
+            <ListView fx:id="listViewAstronaut" layoutX="20.0" layoutY="60.0" prefHeight="127.0" prefWidth="294.0" />
+            <Button layoutX="329.0" layoutY="105.0" mnemonicParsing="false" onAction="#btnShowAstronaut" prefHeight="37.0" prefWidth="116.0" text="Show Astronauts" />
+            <Button layoutX="329.0" layoutY="250.0" mnemonicParsing="false" onAction="#btnShowSpaceship" prefHeight="37.0" prefWidth="116.0" text="Show Spaceships" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
